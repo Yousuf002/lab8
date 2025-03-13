@@ -40,4 +40,4 @@ jobs:
         echo "JWT_SECRET=test_jwt_secret_for_ci" >> .env
     
     - name: Check for syntax errors
-      run: node -c src/server.js
+      run: node -c server.js
